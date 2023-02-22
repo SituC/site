@@ -1,0 +1,19 @@
+{
+  "name": "y",
+  "version": "0.0.1",
+  "description": "y",
+  "main": "index.js",
+  "authors": {
+    "name": "laiweilun",
+    "email": "hiwailen@qq.com"
+  },
+  "repository": "/y",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
