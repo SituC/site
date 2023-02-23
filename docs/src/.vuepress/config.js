@@ -9,8 +9,8 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
   description: description,
-  base:'./',  
-  dest: './dist',  
+  // base:'./',  
+  // dest: './dist',  
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
@@ -92,9 +92,13 @@ module.exports = {
       {
         text: 'node',
         items: [
+          { text: 'node的优缺点', link: '/md/nodejs/node的优缺点' },
+          { text: '非阻塞IO模型', link: '/md/nodejs/非阻塞IO模型' },
+          { text: 'BFF架构', link: '/md/nodejs/BFF架构' },
           { text: '事件循环', link: '/md/nodejs/eventLoop' },
           { text: '内存泄漏', link: '/md/nodejs/内存泄漏' },
           { text: 'express和koa', link: '/md/nodejs/exprss和koa的区别' },
+          { text: 'express api 总结', link: '/md/nodejs/express api 总结' },
         ],
       },
       {
@@ -127,6 +131,7 @@ module.exports = {
         items: [
           { text: 'babel和plugin', link: '/md/webpack/babel和plugin' },
           { text: 'loader为什么从右往左执行', link: '/md/webpack/loader为什么从右往左执行' },
+          { text: 'webpack打包优化', link: '/md/webpack/webpack打包优化' },
         ],
       },
       {
@@ -221,9 +226,13 @@ module.exports = {
           title: 'nodejs',
           collapsable: false,
           children: [
+            { title: 'node的优缺点', path: 'node的优缺点' },
+            { title: '非阻塞IO模型', path: '非阻塞IO模型' },
+            { title: 'BFF架构', path: 'BFF架构' },
             { title: 'eventLoop', path: 'eventLoop'},
             { title: '内存泄漏', path: '内存泄漏'},
             { title: 'express和koa的区别', path: 'exprss和koa的区别'},
+            { title: 'express api总结', path: 'express api 总结'},
           ]
         }
       ],
@@ -304,6 +313,7 @@ module.exports = {
           children: [
             { title: 'babel和plugin', path: 'babel和plugin'},
             { title: 'loader为什么从右往左执行', path: 'loader为什么从右往左执行'},
+            { title: 'webpack打包优化', path: 'webpack打包优化'},
           ]
         }
       ],
