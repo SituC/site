@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Hi, I\'m Wailen',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -33,6 +33,29 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     nav: [
+      {
+        text: 'javascript',
+        items: [
+          { text: '遍历和迭代的理解', link: '/md/javascript/遍历和迭代的理解'},
+          { text: '函数式编程', link: '/md/javascript/函数式编程'},
+          { text: '解释型语言和编译型语言', link: '/md/javascript/解释型语言和编译型语言'},
+          { text: '面向过程和面向对象', link: '/md/javascript/面向过程和面向对象'},
+          { text: '设计模式理解', link: '/md/javascript/设计模式理解'},
+          { text: '作用域和作用域链', link: '/md/javascript/作用域和作用域链'},
+          { text: 'babel编译原理', link: '/md/javascript/babel编译原理'},
+          { text: 'call,apply,bind区别', link: '/md/javascript/call,apply,bind区别'},
+          { text: 'class类', link: '/md/javascript/class类'},
+          { text: 'gzip原理', link: '/md/javascript/gzip原理'},
+          { text: 'import和require的区别', link: '/md/javascript/import和require的区别'},
+          { text: 'js变量提升', link: '/md/javascript/js变量提升'},
+          { text: 'js的静态分析', link: '/md/javascript/js的静态分析'},
+          { text: 'js的延迟加载及异步async和defer', link: '/md/javascript/js的延迟加载及异步async和defer'},
+          { text: 'js继承', link: '/md/javascript/js继承'},
+          { text: 'js中的this指向问题', link: '/md/javascript/js中的this指向问题'},
+          { text: 'setInterval的理解', link: '/md/javascript/setInterval的理解'},
+
+        ]
+      },
       {
         text: 'vue',
         items: [
@@ -104,6 +127,77 @@ module.exports = {
           { text: 'babel和plugin', link: '/md/webpack/babel和plugin' },
           { text: 'loader为什么从右往左执行', link: '/md/webpack/loader为什么从右往左执行' },
         ],
+      },
+      {
+        text: 'git',
+        items: [
+          { text: 'merge和rebase', link: '/md/git/merge和rebase' },
+        ],
+      },
+      {
+        text: '算法',
+        items: [
+          { text: '数据结构', items: [ {text: '数据结构', link: '/md/算法/数据结构'}] },
+          { text: '二叉树', items: [
+              { text: '最大深度', link: '/md/算法/二叉树/找到最大深度' },
+            ] 
+          },
+          { text: '链表', items: [
+              { text: '合并两个有序链表', link: '/md/算法/链表/合并两个有序链表' },
+              { text: '链表清除重复的结点', link: '/md/算法/链表/链表清除重复的结点' },
+              { text: '链表删除重复结点', link: '/md/算法/链表/链表删除重复结点' },
+            ]
+          },
+          { text: '排序算法', items: [
+              { text: '插入排序', link: '/md/算法/排序算法/插入排序' },
+              { text: '归并排序-数组中的逆序对', link: '/md/算法/排序算法/归并排序-数组中的逆序对' },
+              { text: '归并排序', link: '/md/算法/排序算法/归并排序' },
+              { text: '快速排序', link: '/md/算法/排序算法/快速排序' },
+              { text: '冒泡排序', link: '/md/算法/排序算法/冒泡排序' },
+              { text: '选择排序', link: '/md/算法/排序算法/选择排序' },
+            ]
+          },
+          {
+            text: '算法题', items: [
+              { text: '大数相加', link: '/md/算法/大数相加' },
+              { text: '回文子串', link: '/md/算法/回文子串' },
+              { text: '精度计算', link: '/md/算法/精度计算' },
+              { text: '判断是否回文', link: '/md/算法/判断是否回文' },
+              { text: '三数求和问题', link: '/md/算法/三数求和问题' },
+              { text: '数字转化为中文', link: '/md/算法/数字转化为中文' },
+              { text: '数组在算法中的应用', link: '/md/算法/数组在算法中的应用' },
+              { text: '双指针法', link: '/md/算法/双指针法' },
+              { text: '贪心算法', link: '/md/算法/贪心算法' },
+              { text: '洗牌算法', link: '/md/算法/洗牌算法' },
+              { text: '找到字符串的所有目标子串', link: '/md/算法/找到字符串的所有目标子串' },
+              { text: '找到字符串中的最小子串', link: '/md/算法/找到字符串中的最小子串' },
+              { text: '整数反转', link: '/md/算法/整数反转' },
+              { text: '字符串转换整数 (atoi)', link: '/md/算法/字符串转换整数' },
+              { text: 'dfs深度优先遍历', link: '/md/算法/dfs深度优先遍历' },
+            ]
+          }
+        ],
+      },
+      {
+        text: '手写题',
+        items: [
+          { text: '防抖节流', link: '/md/手写题/防抖节流'},
+          { text: '函数柯里化', link: '/md/手写题/函数柯里化'},
+          { text: '浅拷贝与深拷贝', link: '/md/手写题/浅拷贝与深拷贝'},
+          { text: '请求限流', link: '/md/手写题/请求限流'},
+          { text: '事件循环', link: '/md/手写题/事件循环'},
+          { text: '手写bind', link: '/md/手写题/手写bind'},
+          { text: '装饰器模式', link: '/md/手写题/装饰器模式'},
+          { text: 'compose', link: '/md/手写题/compose'},
+          { text: 'delay', link: '/md/手写题/delay'},
+          { text: 'instanceof', link: '/md/手写题/instanceof'},
+          { text: 'new', link: '/md/手写题/new'},
+          { text: 'new的原理和实现', link: '/md/手写题/new的原理和实现'},
+          { text: 'promise手写', link: '/md/手写题/promise手写'},
+          { text: 'require源码', link: '/md/手写题/require源码'},
+          { text: 'ts', link: '/md/手写题/ts'},
+          { text: 'vue3中的柯里化', link: '/md/手写题/vue3中的柯里化'},
+        ]
       },
       {
         text: '网络安全',
@@ -212,6 +306,104 @@ module.exports = {
           ]
         }
       ],
+      '/md/算法/': [
+          { title: '数据结构', 
+            collapsable: false, 
+            children: [
+              { title: '数据结构', path: '数据结构' }
+            ]
+          },
+          { title: '二叉树',
+            collapsable: false,
+            children: [
+              { title: '最大深度', path: '二叉树/找到最大深度' },
+            ] 
+          },
+          { title: '链表', collapsable: false, children: [
+              { title: '合并两个有序链表', path: '链表/合并两个有序链表' },
+              { title: '链表清除重复的结点', path: '链表/链表清除重复的结点' },
+              { title: '链表删除重复结点', path: '链表/链表删除重复结点' },
+            ]
+          },
+          { title: '排序算法', collapsable: false, children: [
+              { title: '插入排序', path: '排序算法/插入排序' },
+              { title: '归并排序-数组中的逆序对', path: '排序算法/归并排序-数组中的逆序对' },
+              { title: '归并排序', path: '排序算法/归并排序' },
+              { title: '快速排序', path: '排序算法/快速排序' },
+              { title: '冒泡排序', path: '排序算法/冒泡排序' },
+              { title: '选择排序', path: '排序算法/选择排序' },
+            ]
+          },
+          {
+            title: '算法题', collapsable: false, children: [
+              { title: '大数相加', path: '大数相加' },
+              { title: '回文子串', path: '回文子串' },
+              { title: '精度计算', path: '精度计算' },
+              { title: '判断是否回文', path: '判断是否回文' },
+              { title: '三数求和问题', path: '三数求和问题' },
+              { title: '数字转化为中文', path: '数字转化为中文' },
+              { title: '数组在算法中的应用', path: '数组在算法中的应用' },
+              { title: '双指针法', path: '双指针法' },
+              { title: '贪心算法', path: '贪心算法' },
+              { title: '洗牌算法', path: '洗牌算法' },
+              { title: '找到字符串的所有目标子串', path: '找到字符串的所有目标子串' },
+              { title: '找到字符串中的最小子串', path: '找到字符串中的最小子串' },
+              { title: '整数反转', path: '整数反转' },
+              { title: '字符串转换整数 (atoi)', path: '字符串转换整数' },
+              { title: 'dfs深度优先遍历', path: 'dfs深度优先遍历' },
+            ]
+          }
+      ],
+      '/md/手写题/': [
+        {
+          title: '手写题',
+          collapsable: false,
+          children: [
+            { title: '防抖节流', path: '防抖节流'},
+            { title: '函数柯里化', path: '函数柯里化'},
+            { title: '浅拷贝与深拷贝', path: '浅拷贝与深拷贝'},
+            { title: '请求限流', path: '请求限流'},
+            { title: '事件循环', path: '事件循环'},
+            { title: '手写bind', path: '手写bind'},
+            { title: '装饰器模式', path: '装饰器模式'},
+            { title: 'compose', path: 'compose'},
+            { title: 'delay', path: 'delay'},
+            { title: 'instanceof', path: 'instanceof'},
+            { title: 'new', path: 'new'},
+            { title: 'new的原理和实现', path: 'new的原理和实现'},
+            { title: 'promise手写', path: 'promise手写'},
+            { title: 'require源码', path: 'require源码'},
+            { title: 'ts', path: 'ts'},
+            { title: 'vue3中的柯里化', path: 'vue3中的柯里化'},
+          ]
+        }
+      ],
+      '/md/javascript/': [
+        {
+          title: 'javascript',
+          collapsable: false, 
+          children: [
+            { title: '遍历和迭代的理解', path: '遍历和迭代的理解'},
+            { title: '函数式编程', path: '函数式编程'},
+            { title: '解释型语言和编译型语言', path: '解释型语言和编译型语言'},
+            { title: '面向过程和面向对象', path: '面向过程和面向对象'},
+            { title: '设计模式理解', path: '设计模式理解'},
+            { title: '作用域和作用域链', path: '作用域和作用域链'},
+            { title: 'babel编译原理', path: 'babel编译原理'},
+            { title: 'call,apply,bind区别', path: 'call,apply,bind区别'},
+            { title: 'class类', path: 'class类'},
+            { title: 'gzip原理', path: 'gzip原理'},
+            { title: 'import和require的区别', path: 'import和require的区别'},
+            { title: 'js变量提升', path: 'js变量提升'},
+            { title: 'js的静态分析', path: 'js的静态分析'},
+            { title: 'js的延迟加载及异步async和defer', path: 'js的延迟加载及异步async和defer'},
+            { title: 'js继承', path: 'js继承'},
+            { title: 'js中的this指向问题', path: 'js中的this指向问题'},
+            { title: 'setInterval的理解', path: 'setInterval的理解'},
+  
+          ]
+        },
+      ]
     }
   },
 

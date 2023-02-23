@@ -3,9 +3,9 @@
 > 这儿发散一下，接口继承联想到了`java`的`extends`继承，java中只有`接口`可以被`implement`，只有`类`才能被`extends`，与`typeScript`相比，ts中一个类既可以被implement也可以被extends。但是区别在于，implement必须在类内部实现父类的所有方法并且不可以定义super，而extends不用满足且可以使用super
 <p>
 图1
-<img src="./static/css.md/extend.png" />
+<img src="../static/css.md/extend.png" />
 图2
-<img src="./static/css.md/extend2.png" />
+<img src="../static/css.md/extend2.png" />
 </p>
 
 - `实现继承`ECMAScript只支持实现继承，主要依靠`原型链`来实现
@@ -15,7 +15,7 @@
 
 如图所示
 <p>
-<img src="./static/css.md/原型链.png" />
+<img src="../static/css.md/原型链.png" />
 </p>
 
 #### `原型链特性`

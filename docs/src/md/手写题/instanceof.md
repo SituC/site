@@ -1,3 +1,4 @@
+```js
 /**
  * 在instanceof的底层原理是，利用instanceof左边实例的隐式原型和instanceof右边构造函数的显示原型进行循环比对。
  * 看看是否有哪一级能对上。有对的上的就返回true,一直顺着原型链找到头都没有比对成功的，返回false。
@@ -17,5 +18,5 @@ const myInstance = (el, type) => {
     el = el.__proto__
   }
 }
-
+```
 <img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b50408f1b3d649c1a8cde7a4104d5a06~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?"></img>

@@ -1,3 +1,4 @@
+```js
 // 1 普通的delay
 const delay1 = (ms, value = {}) => {
   return new Promise((resolve, reject) => {
@@ -87,3 +88,5 @@ const createWithTimer = () => {
   return delay
 }
 const delay = createWithTimer()
+
+```

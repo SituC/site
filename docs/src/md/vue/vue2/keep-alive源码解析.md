@@ -89,7 +89,7 @@ export default {
 ### 渲染
 先看一张vue渲染导图
 <p>
-<img src="../static/css.md/vue渲染流程图.png">
+<img src="../../static/css.md/vue渲染流程图.png">
 </p>
 
 Vue的渲染时从`render阶段开始的`，但`keep-alive`的渲染是在`patch`阶段，这是构建组件树（虚拟dom树），并将vnode转化成DOM结点的过程。

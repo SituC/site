@@ -1,3 +1,4 @@
+```js
 function _new(constructor, ...args) {
   if (typeof constructor !== 'function') {
     throw new Error('constructor must be a function')
@@ -13,3 +14,4 @@ function _new(constructor, ...args) {
   const isFunction = typeof res === 'function'
   return isObject || isFunction ? res : obj
 }
+```

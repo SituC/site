@@ -1,3 +1,4 @@
+```js
 let path = require('path');
 let fs = require('fs');
 let vm = require('vm');
@@ -62,3 +63,4 @@ function myRequire(filePath){
 }
 let r = myRequire('./a1');
 console.log(r);
+```

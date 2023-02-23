@@ -1,3 +1,4 @@
+```js
 // 柯里化的作用优化了tree shaking
 // vue3挂载
 import App from './App.vue'
@@ -56,3 +57,4 @@ const createApp = ((...args) => {
   }
   return app
 })
+```

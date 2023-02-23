@@ -1,15 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: y
-actionText: Quick Start →
-actionLink: /guide/
-features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
+heroImage: /github.png
+tagline: 伸手摘星，即便一无所获也不至于满手污泞
 footer: Made by laiweilun with ❤️
 ---
