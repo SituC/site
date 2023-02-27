@@ -9,8 +9,8 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
   description: description,
-  base:'./',  
-  dest: './dist',  
+  // base:'./',  
+  // dest: './dist',  
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
@@ -54,7 +54,7 @@ module.exports = {
           { text: 'js继承', link: '/md/javascript/js继承'},
           { text: 'js中的this指向问题', link: '/md/javascript/js中的this指向问题'},
           { text: 'setInterval的理解', link: '/md/javascript/setInterval的理解'},
-
+          { text: '上下文和this', link: '/md/javascript/上下文和this'},
         ]
       },
       {
@@ -62,6 +62,7 @@ module.exports = {
         items: [
           { text: 'vue2', items: [
               { text: '生命周期', link: '/md/vue/vue2/生命周期' },
+              { text: '数据更新全过程', link: '/md/vue/vue2/数据更新全过程' },
               { text: '$route和$router的区别', link: '/md/vue/vue2/$route和$router的区别' },
               { text: '对象和数组的依赖收集', link: '/md/vue/vue2/对象和数组的依赖收集' },
               { text: '虚拟dom', link: '/md/vue/vue2/虚拟dom' },
@@ -283,6 +284,7 @@ module.exports = {
           collapsable: false,
           children: [
             { title: '生命周期', path: 'vue2/生命周期' },
+            { title: '数据更新全过程', path: 'vue2/数据更新全过程' },
             { title: '$route和$router的区别', path: 'vue2/$route和$router的区别' },
             { title: '对象和数组的依赖收集', path: 'vue2/对象和数组的依赖收集' },
             { title: '虚拟dom', path: 'vue2/虚拟dom' },
@@ -411,7 +413,7 @@ module.exports = {
             { title: 'js继承', path: 'js继承'},
             { title: 'js中的this指向问题', path: 'js中的this指向问题'},
             { title: 'setInterval的理解', path: 'setInterval的理解'},
-  
+            { title: '上下文和this', path: '上下文和this'},
           ]
         },
       ]
