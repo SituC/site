@@ -75,6 +75,7 @@ module.exports = {
               { text: 'use源码解析', link: '/md/vue/vue2/use源码解析' },
               { text: 'vue-router源码解析', link: '/md/vue/vue2/vue-router源码解析' },
               { text: 'vue2不监听数组下标的原因', link: '/md/vue/vue2/vue2不监听数组下标的原因' },
+              { text: 'vuex为什么要有action和mutation', link: '/md/vue/vue2/vuex为什么要有action和mutation' },
             ] 
           },
           { text: 'vue3', items: [
@@ -297,6 +298,7 @@ module.exports = {
             { title: 'use源码解析', path: 'vue2/use源码解析' },
             { title: 'vue-router源码解析', path: 'vue2/vue-router源码解析' },
             { title: 'vue2不监听数组下标的原因', path: 'vue2/vue2不监听数组下标的原因' },
+            { title: 'vuex为什么要有action和mutation', path: 'vue2/vuex为什么要有action和mutation' },
           ]
         },
         {
