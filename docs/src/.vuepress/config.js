@@ -205,6 +205,7 @@ module.exports = {
           { text: 'require源码', link: '/md/手写题/require源码'},
           { text: 'ts', link: '/md/手写题/ts'},
           { text: 'vue3中的柯里化', link: '/md/手写题/vue3中的柯里化'},
+          { text: '中断和恢复任务序列', link: '/md/javascript/中断和恢复任务序列'},
         ]
       },
       {
@@ -390,6 +391,7 @@ module.exports = {
             { title: 'require源码', path: 'require源码'},
             { title: 'ts', path: 'ts'},
             { title: 'vue3中的柯里化', path: 'vue3中的柯里化'},
+            { title: '中断和恢复任务序列', path: '中断和恢复任务序列'},
           ]
         }
       ],
