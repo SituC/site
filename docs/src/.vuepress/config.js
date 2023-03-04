@@ -9,8 +9,8 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
   description: description,
-  base:'./',  
-  dest: './dist',  
+  // base:'./',  
+  // dest: './dist',  
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
@@ -205,7 +205,7 @@ module.exports = {
           { text: 'require源码', link: '/md/手写题/require源码'},
           { text: 'ts', link: '/md/手写题/ts'},
           { text: 'vue3中的柯里化', link: '/md/手写题/vue3中的柯里化'},
-          { text: '中断和恢复任务序列', link: '/md/javascript/中断和恢复任务序列'},
+          { text: '中断和恢复任务序列', link: '/md/手写题/中断和恢复任务序列'},
         ]
       },
       {
