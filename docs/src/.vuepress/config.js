@@ -80,6 +80,7 @@ module.exports = {
           },
           { text: 'vue3', items: [
             { text: '什么是受控组件', link: '/md/vue/vue3/什么是受控组件' },
+            { text: 'pinia学习', link: '/md/vue/vue3/pinia学习' },
             { text: '数组监听', link: '/md/vue/vue3/vue3为什么可以监听数组每个元素' },
           ] 
         },
@@ -307,6 +308,7 @@ module.exports = {
           collapsable: false,
           children: [
             { title: '什么是受控组件', path: 'vue3/什么是受控组件' },
+            { title: 'pinia学习', path: 'vue3/pinia学习' },
             { title: 'vue3为什么可以监听数组每个元素', path: 'vue3/vue3为什么可以监听数组每个元素' },
           ]
         }
