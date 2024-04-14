@@ -7,10 +7,11 @@ module.exports = {
   title: 'Hi, I\'m Wailen',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
+   * 需要去node_modules/@vuepress/core/lib/clientlapp.js这个文件注释掉mode: 'history
+   * 并打开base: './'
    */
   description: description,
-  // base:'./',  
-  // dest: './dist',  
+  base:'./',  
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
@@ -55,6 +56,17 @@ module.exports = {
           { text: 'js中的this指向问题', link: '/md/javascript/js中的this指向问题'},
           { text: 'setInterval的理解', link: '/md/javascript/setInterval的理解'},
           { text: '上下文和this', link: '/md/javascript/上下文和this'},
+        ]
+      },
+      {
+        text: 'react',
+        items: [
+          { text: '生命周期', link: '/md/react/生命周期'},
+          { text: '为什么只有一个根元素', link: '/md/react/为什么只有一个根元素'},
+          { text: 'setState和useState', link: '/md/react/setState和useState'},
+          { text: 'hooks', link: '/md/react/hooks'},
+          { text: 'redux工作原理', link: '/md/react/redux工作原理'},
+          { text: 'fiber的理解', link: '/md/react/fiber的理解'},
         ]
       },
       {
@@ -422,6 +434,20 @@ module.exports = {
             { title: '上下文和this', path: '上下文和this'},
           ]
         },
+      ],
+      '/md/react/': [
+        {
+          title: 'react',
+          collapsable: false, 
+          children: [
+            { title: '生命周期', path: '生命周期'},
+            { title: '为什么只有一个根元素', path: '为什么只有一个根元素'},
+            { title: 'setState和useState', path: 'setState和useState'},
+            { title: 'hooks', path: 'hooks'},
+            { title: 'redux工作原理', path: 'redux工作原理'},
+            { title: 'fiber的理解', path: 'fiber的理解'},
+          ]
+        }
       ]
     }
   },
