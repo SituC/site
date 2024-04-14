@@ -11,7 +11,7 @@ module.exports = {
    * 并打开base: './'
    */
   description: description,
-  base:'./',  
+  // base:'./',  
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
